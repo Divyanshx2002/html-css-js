@@ -711,6 +711,7 @@
     background-color: orange;
     cursor: pointer;
     color: white;
+    display: none;
 }
 
 .totop:hover{
