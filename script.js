@@ -13,3 +13,13 @@ document.addEventListener("scroll", (event) => {
         document.querySelector('.totop').style.display = "none"
     }
 });
+
+let a1 = document.querySelector('.a1');
+a1.addEventListener('click', function(){
+    console.log("left")
+})
+
+let a2= document.querySelector('.a2');
+a2.addEventListener('click', function(){
+    console.log("right")
+})
